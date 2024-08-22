@@ -1,0 +1,18 @@
+@keyframes pulsate {
+  0% {
+    box-shadow: 0px 2px 10px rgba(255, 0, 0, 0.3);
+  }
+  50% {
+    box-shadow: 0px 8px 20px rgba(255, 0, 0, 0.7);
+  }
+  100% {
+    box-shadow: 0px 2px 10px rgba(255, 0, 0, 0.3);
+  }
+}
+
+.about {
+  box-shadow: 0px 4px 15px rgba(255, 0, 0, 0.5);
+  border-radius: 12px;
+  color: white;
+  animation: pulsate 12s infinite;
+}

@@ -1,0 +1,16 @@
+.scroll-container {
+  display: flex;
+  overflow-x: hidden; /* Hide overflow */
+  white-space: nowrap; /* Keep items in a single line */
+  width: 100%; /* Ensure the container spans the full width */
+  height: 120px;
+  margin-left: auto;
+  margin-right: auto; /* Adjust height as needed */
+}
+
+.scroll-item {
+  flex: 0 0 auto;
+  width: 100px; /* Adjust width as needed */
+  height: 100px; /* Adjust height as needed */
+  margin: 0 10px; /* Adjust spacing between items */
+}
