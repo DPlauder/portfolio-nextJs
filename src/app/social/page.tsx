@@ -5,7 +5,6 @@ import { FaGithub, FaEnvelope } from "react-icons/fa";
 export default function SocialButtons() {
   return (
     <section className="fixed -left-5 top-1/2 transform -translate-y-1/2 pl-6 bg-gray-800 bg-opacity-75 border-t border-r border-b border-red-500 rounded-r-lg p-4 shadow-xl flex items-center group transition-transform duration-300 ease-in-out -translate-x-20 group-hover:translate-x-0 hover:translate-x-5">
-      {/* Social Buttons Container */}
       <div id="socialButtons" className="flex flex-col space-y-6 ml-auto">
         <a
           href="https://github.com/dplauder"
@@ -25,7 +24,6 @@ export default function SocialButtons() {
         </a>
       </div>
 
-      {/* Social Label */}
       <div
         id="socialLabel"
         className="text-white flex flex-col items-center h-full justify-center pl-4 text-3xl font-bold z-10"
