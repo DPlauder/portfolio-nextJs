@@ -21,20 +21,20 @@ import {
 } from "react-icons/si";
 
 const items = [
-  <FaReact size={100} color="#61DBFB" />,
-  <SiTypescript size={100} color="#3178C6" />,
-  <FaJsSquare size={100} color="#F7DF1E" />,
-  <SiDotnet size={100} color="#512BD4" />,
-  <FaCss3Alt size={100} color="#1572B6" />,
-  <FaGit size={100} color="#F05032" />,
-  <FaGithub size={100} color="#6e5494" />,
-  <FaNpm size={100} color="#CB3837" />,
-  <FaPhp size={100} color="#777BB4" />,
-  <SiMysql size={100} color="#4479A1" />,
-  <SiCsharp size={100} color="#239120" />,
-  <SiMariadb size={100} color="#4E90A4" />,
-  <SiMongodb size={100} color="#47A248" />,
-  <FaHtml5 size={100} color="#E34F26" />,
+  <FaReact key="react" size={100} color="#61DBFB" />,
+  <SiTypescript key="typescript" size={100} color="#3178C6" />,
+  <FaJsSquare key="javascript" size={100} color="#F7DF1E" />,
+  <SiDotnet key="dotnet" size={100} color="#512BD4" />,
+  <FaCss3Alt key="css3" size={100} color="#1572B6" />,
+  <FaGit key="git" size={100} color="#F05032" />,
+  <FaGithub key="github" size={100} color="#6e5494" />,
+  <FaNpm key="npm" size={100} color="#CB3837" />,
+  <FaPhp key="php" size={100} color="#777BB4" />,
+  <SiMysql key="mysql" size={100} color="#4479A1" />,
+  <SiCsharp key="csharp" size={100} color="#239120" />,
+  <SiMariadb key="mariadb" size={100} color="#4E90A4" />,
+  <SiMongodb key="mongodb" size={100} color="#47A248" />,
+  <FaHtml5 key="html5" size={100} color="#E34F26" />,
 ];
 
 const ScrollLanguages: React.FC = () => {
