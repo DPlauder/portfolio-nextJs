@@ -4,11 +4,11 @@ export default function Page() {
   return (
     <div
       id="about"
-      className="flex flex-col items-center justify-center gap-40 mb-36"
+      className="flex flex-col items-center justify-center gap-40 m-4"
     >
       <div className="about rounded-lg p-8 max-w-4xl w-full">
         <h3 className="text-3xl mb-5 font-bold">
-          Hi, i am <span className="text-red-500 text-4xl">D</span>OMINIK
+          Hi, I am <span className="text-red-500 text-4xl">D</span>OMINIK
         </h3>
         <h5 className="text-xl mb-6">
           Nice to meet you. Please take a look around.

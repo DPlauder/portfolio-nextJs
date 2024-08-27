@@ -10,3 +10,21 @@ body {
   box-sizing: border-box;
   @apply bg-custom-bg text-white;
 }
+
+@media (min-width: 1280px) {
+  .section {
+    height: 100vh;
+    scroll-snap-align: start;
+  }
+
+  .content-container {
+    display: flex;
+    flex-direction: column;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+  }
+
+  body {
+    overflow: hidden;
+  }
+}
