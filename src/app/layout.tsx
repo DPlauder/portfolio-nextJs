@@ -26,7 +26,7 @@ export default function RootLayout({
 
   return (
     <html lang="en">
-      <body className="bg-custom-bg text-white">
+      <body className="flex flex-col min-h-screen bg-custom-bg text-white">
         <header className="fixed top-0 left-0 w-full bg-custom-bg text-white py-6 px-8 border-b border-red-500 z-50">
           <nav className="container mx-auto flex justify-between items-center">
             <div className="text-3xl xl:text-4xl font-bold">
@@ -153,19 +153,20 @@ export default function RootLayout({
         {width > 1280 && <SocialButtons />}
 
         <main
-          className={`flex flex-col items-center justify-center ${
+          className={`flex flex-col items-center justify-center flex-1 ${
             width >= 1280 ? "h-[calc(100vh-14rem)]" : ""
           } mt-[6rem] z-30`}
         >
           {children}
         </main>
+
+        <footer className="text-white py-8 text-center border-t border-red-500 z-30">
+          <p>
+            &copy; {new Date().getFullYear()} Dominik Plauder. All rights
+            reserved.
+          </p>
+        </footer>
       </body>
-      <footer className="text-white py-8 text-center border-t border-red-500 z-30">
-        <p>
-          &copy; {new Date().getFullYear()} Dominik Plauder. All rights
-          reserved.
-        </p>
-      </footer>
     </html>
   );
 }
