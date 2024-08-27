@@ -1,3 +1,5 @@
+"use client";
+
 import { FaGithub, FaEnvelope } from "react-icons/fa";
 import useWindowSize from "../../hooks/useWindowSize";
 

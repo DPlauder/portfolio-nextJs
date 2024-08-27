@@ -8,7 +8,7 @@ import "./globals.css";
 
 import Link from "next/link";
 import SocialButtons from "./social/page";
-import useWindowSize from "../hooks/useWindowSize"; // Import your custom hook
+import useWindowSize from "../hooks/useWindowSize";
 
 const inter = Inter({ subsets: ["latin"] });
 
