@@ -149,7 +149,7 @@ export default function RootLayout({
           </div>
         )}
 
-        {/* Conditionally render SocialButtons based on screen size */}
+        {/* Condition render SocialButtons >= 1280px */}
         {width > 1280 && <SocialButtons />}
 
         <main
