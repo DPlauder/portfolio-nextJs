@@ -44,7 +44,7 @@ export default function RootLayout({
               >
                 <span
                   className={`block h-1 w-full bg-white transform transition duration-300 ${
-                    isMenuOpen ? "rotate-45 translate-y-3" : ""
+                    isMenuOpen ? "translate-y-3" : ""
                   }`}
                 />
                 <span
@@ -54,7 +54,7 @@ export default function RootLayout({
                 />
                 <span
                   className={`block h-1 w-full bg-white transform transition duration-300 ${
-                    isMenuOpen ? "-rotate-45 -translate-y-3" : ""
+                    isMenuOpen ? "rotate-90 -translate-y-4" : ""
                   }`}
                 />
               </div>
