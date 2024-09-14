@@ -27,18 +27,18 @@ export default function Page() {
         </p>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4 w-full max-w-4xl">
-        <div className="border-b-4 border-orange-500 text-center py-4">
+        <div className="border-4 xl:border-b-4 xl:border-t-0 xl:border-x-0 border-orange-500 text-center py-4">
           <h3 className="text-2xl">
             <span className="text-orange-500 text-3xl">D</span>esign
           </h3>
         </div>
-        <div className="border-t-4 border-violet-500 text-center py-4">
+        <div className="border-4 xl:border-t-4 xl:border-b-0 xl:border-x-0 border-violet-500 text-center py-4">
           <h3 className="text-2xl">
             <span className="text-violet-500 text-3xl">D</span>
             evelopment
           </h3>
         </div>
-        <div className="border-b-4 border-green-500 text-center py-4">
+        <div className="border-4 xl:border-b-4 xl:border-t-0 xl:border-x-0 border-green-500 text-center py-4">
           <h3 className="text-2xl">
             <span className="text-green-500 text-3xl">F</span>ull Stack
           </h3>
