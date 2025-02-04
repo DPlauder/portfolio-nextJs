@@ -76,14 +76,7 @@ export default function RootLayout({
                   About
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/projects"
-                  className="text-lg font-semibold transition-colors duration-300 ease-in-out hover:text-red-500 hover:underline underline-offset-4"
-                >
-                  Projects
-                </Link>
-              </li>
+              
             </ul>
           </nav>
         </header>
