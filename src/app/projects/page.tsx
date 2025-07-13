@@ -65,57 +65,7 @@ const Projects: React.FC = () => {
   };
 
   return (
-    <main className="pt-[6rem] pb-[4rem] px-4 bg-custom-bg text-white h-full overflow-hidden">
-      <div className="container mx-auto h-full">
-        <h1 className="text-4xl font-bold mb-8 text-center">Recent Projects</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
-          {projects.map((project, index) =>
-            project.external ? (
-              <Link
-                key={index}
-                href={project.link}
-                passHref
-                className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <div className="w-full h-48 flex items-center justify-center bg-black text-white">
-                  <h2 className="text-xl font-bold group-hover:opacity-0 transition-opacity duration-300">
-                    {project.title}
-                  </h2>
-                  <Image
-                    src={project.imageSrc}
-                    alt={project.title}
-                    width={600}
-                    height={400}
-                    className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  />
-                </div>
-              </Link>
-            ) : (
-              <div
-                key={index}
-                onClick={() => handleInternalProjectClick(project.link)}
-                className="group relative overflow-hidden rounded-lg shadow-lg hover:shadow-2xl transition-shadow duration-300 cursor-pointer"
-              >
-                <div className="w-full h-48 flex items-center justify-center bg-black text-white">
-                  <h2 className="text-xl font-bold group-hover:opacity-0 transition-opacity duration-300">
-                    {project.title}
-                  </h2>
-                  <Image
-                    src={project.imageSrc}
-                    alt={project.title}
-                    width={600}
-                    height={400}
-                    className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300"
-                  />
-                </div>
-              </div>
-            )
-          )}
-        </div>
-      </div>
-    </main>
+    <main className="pt-[6rem] pb-[4rem] px-4 bg-custom-bg text-white h-full overflow-hidden"></main>
   );
 };
 

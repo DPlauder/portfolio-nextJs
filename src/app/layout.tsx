@@ -76,7 +76,6 @@ export default function RootLayout({
                   About
                 </Link>
               </li>
-              
             </ul>
           </nav>
         </header>
@@ -123,15 +122,7 @@ export default function RootLayout({
                   About
                 </Link>
               </li>
-              <li>
-                <Link
-                  href="/projects"
-                  className="transition-colors duration-300 ease-in-out hover:text-red-500 hover:underline underline-offset-4"
-                  onClick={toggleMenu}
-                >
-                  Projects
-                </Link>
-              </li>
+
               {/* Social Buttons */}
               <li>
                 <div className="flex space-x-4">
